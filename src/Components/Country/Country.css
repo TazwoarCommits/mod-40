@@ -1,5 +1,16 @@
 .country{
-    border: 2px solid skyblue;
-    margin: 15px;
-    border-radius: 15px;
+   border: 2px solid indigo;
+   border-radius: 15px;
+   margin: 15px;
+   padding: 8px;
+}
+
+.visited{
+    background-color: rgba(186, 132, 224, 0.1);
+    backdrop-filter: blur();
+}
+
+.visit-btn{
+    border: 1px solid lightskyblue;
+    background-color: skyblue;
 }
